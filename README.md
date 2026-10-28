@@ -21,6 +21,18 @@
 
 </div>
 
+## Dam Sedimentation Robotics Extension
+
+This derivative adds a reservoir-sediment field, noisy thickness soundings,
+online mapping, simulated removal and autonomous route comparison for dam
+maintenance research. Start with
+[`usage/27sediment_dam`](usage/27sediment_dam/README.md).
+
+The extension is an engineering experiment layer above IR-SIM's navigation
+core. It does not model hydrodynamics, resuspension, turbidity, disposal or
+permitting, and its comparative energy index is not a battery-energy estimate.
+The original IR-SIM copyright, MIT license and citation remain in place.
+
 ## Contents
 
 - [Overview](#overview)

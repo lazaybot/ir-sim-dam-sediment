@@ -1,0 +1,23 @@
+world:
+  height: 30
+  width: 60
+  step_time: 0.2
+  sample_time: 0.2
+  offset: [0, 0]
+  collision_mode: "stop"
+  control_mode: "auto"
+  plot:
+    no_axis: false
+
+robot:
+  kinematics: {name: "omni"}
+  shape: {name: "circle", radius: 0.35}
+  state: [0.0, 0.0, 0.0]
+  goal: [60.0, 30.0, 0.0]
+  vel_min: [-3.0, -3.0]
+  vel_max: [3.0, 3.0]
+  goal_threshold: 0.3
+  plot:
+    show_trajectory: true
+    show_goal: false
+    show_text: false
