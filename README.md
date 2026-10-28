@@ -27,6 +27,8 @@ This derivative adds a reservoir-sediment field, noisy thickness soundings,
 online mapping, simulated removal and autonomous route comparison for dam
 maintenance research. Start with
 [`usage/27sediment_dam`](usage/27sediment_dam/README.md).
+The proposed classroom performance targets and the simulator's current ability
+to test them are tracked in [`DESIGN_REQUIREMENTS.md`](DESIGN_REQUIREMENTS.md).
 
 The extension is an engineering experiment layer above IR-SIM's navigation
 core. It does not model hydrodynamics, resuspension, turbidity, disposal or

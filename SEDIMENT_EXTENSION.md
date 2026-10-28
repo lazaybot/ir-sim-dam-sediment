@@ -30,6 +30,9 @@ The simulator is suitable for comparing navigation and sampling strategies. It
 is not sufficient for selecting physical dredging equipment or predicting the
 sediment volume in a real reservoir without calibrated survey data.
 
+See [`DESIGN_REQUIREMENTS.md`](DESIGN_REQUIREMENTS.md) for a requirement-by-
+requirement record of what the current model can and cannot evaluate.
+
 ## Architecture
 
 ```text
